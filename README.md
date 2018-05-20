@@ -1,15 +1,12 @@
 # amdgpocl
-OpenCL on amdgpu for Arch, also in the [AUR].
 
 This package allows the usage of AMD's proprietary user-space OpenCL driver along with the free amdgpu stack. It should work with upstream amdgpu and Mesa. Inspired by [this blog post][gog].
 
 ## Hardware support
 
-This *should* work with amdgpu-enabled GCN GPUs up to Polaris (GCN Gen. 4). Newer GPUs, starting with Vega (GCN Gen. 5+), are only supported via [ROC].
+Only tested with Vega GPUs.
 
-If you are using SI (Southern Islands, GCN Gen. 1) or CIK (Sea Islands, GCN Gen. 2), you'll need to enable the *amdgpu* and disable the *radeon* kernel module. Check the [Arch Wiki] for the exact steps.
-
-Currently tested with Kernel 4.14 and Hawaii. Blender Cycles, Luxmark, F@H and ethminer seem to work without any problems.
+Currently tested with Kernel 4.16. The Avermore miner and Claymore's Dual Miner seem to work without any problems.
 
 ## What this is not
 
