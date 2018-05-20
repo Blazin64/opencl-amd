@@ -1,4 +1,5 @@
 # Maintainer: grmat <grmat@sub.red>
+# Modified by Blazin64
 
 pkgname=opencl-amd
 pkgdesc="OpenCL userspace driver as provided in the amdgpu-pro driver stack. This package is intended to work along with the free amdgpu stack."
